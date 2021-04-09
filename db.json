@@ -1,14 +1,178 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "accounts": [
+    {
+      "id": 1,
+      "email": "olesabrilng@gmail.com",
+      "password": "12345678",
+      "login": "OlesyaBriling",
+      "date_of_birth": "09.01.2002",
+      "location": "Tver"
+    },
+    {
+      "id": 2,
+      "email": "mashafat@gmail.com",
+      "password": "54345678",
+      "login": "Mariya",
+      "date_of_birth": "06.12.2001",
+      "location": "Tver"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "hotels": [
+    {
+      "id": 1,
+      "name": "hotel's name",
+      "adress": {
+        "country": "France",
+        "city": "Paris",
+        "street": "MoulenRouge",
+        "Building": 2
+      },
+      "comforts": [
+        {
+          "id": 1,
+          "name": "parking"
+        },
+        {
+          "id": 2,
+          "name": "swimmnig_pool"
+        },
+        {
+          "id": 3,
+          "name": "wi-fi"
+        }
+      ],
+      "chek_in_date": "02.03.2021",
+      "check_out_date": "07.03.2021",
+      "rooms": [
+        {
+          "roomID": 1,
+          "price": {
+            "amount": 3500,
+            "currency": "rub"
+          },
+          "beds": {
+            "capacity": 2,
+            "amount": 1
+          },
+          "comfort": [
+            {
+              "id": 1,
+              "name": "parking"
+            },
+            {
+              "id": 2,
+              "name": "swimmnig_pool"
+            },
+            {
+              "id": 3,
+              "name": "wi-fi"
+            }
+          ]
+        },
+        {
+          "roomID": 2,
+          "price": {
+            "amount": 3000,
+            "currency": "rub"
+          },
+          "beds": {
+            "capacity": 2,
+            "amount": 1
+          },
+          "comfort": [
+            {
+              "id": 1,
+              "name": "parking"
+            },
+            {
+              "id": 2,
+              "name": "swimmnig_pool"
+            },
+            {
+              "id": 3,
+              "name": "wi-fi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "hotel's name 2",
+      "adress": {
+        "country": "France",
+        "city": "Paris",
+        "street": "Monmantre",
+        "Building": 12
+      },
+      "comforts": [
+        {
+          "id": 1,
+          "name": "conditioner"
+        },
+        {
+          "id": 2,
+          "name": "shower"
+        },
+        {
+          "id": 3,
+          "name": "wi-fi"
+        }
+      ],
+      "chek_in_date": "02.03.2021",
+      "check_out_date": "07.03.2021",
+      "rooms": [
+        {
+          "roomID": 1,
+          "price": {
+            "amount": 3200,
+            "currency": "rub"
+          },
+          "beds": {
+            "capacity": 2,
+            "amount": 1
+          },
+          "comfort": [
+            {
+              "id": 1,
+              "name": "parking"
+            },
+            {
+              "id": 2,
+              "name": "swimmnig_pool"
+            },
+            {
+              "id": 3,
+              "name": "wi-fi"
+            }
+          ]
+        },
+        {
+          "roomID": 2,
+          "price": {
+            "amount": 3500,
+            "currency": "rub"
+          },
+          "beds": {
+            "capacity": 2,
+            "amount": 1
+          },
+          "comfort": [
+            {
+              "id": 1,
+              "name": "parking"
+            },
+            {
+              "id": 2,
+              "name": "swimmnig_pool"
+            },
+            {
+              "id": 3,
+              "name": "wi-fi"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
